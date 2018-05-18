@@ -36,7 +36,6 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter{
                 .logoutSuccessUrl("/login")//退出登录后的默认url是"/home"
                 .permitAll();
 	}
-
 	/**
 	 * 用户认证
 	 */
